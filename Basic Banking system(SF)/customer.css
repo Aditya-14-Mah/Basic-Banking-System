@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+#nav-bar
+{
+	background-color:brown;
+	position: sticky;
+	top:0;
+	z-index:10;
+    float: right;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color:#fff !important;
+    font-weight:600;
+    float:right;
+    text-align:left;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6368!important;
+
+}
+.nav-link{
+    float: right;
+    color: #5f6368!important;
+
+}
+.nav-link:hover{
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+}
+/* navbar css ends here  */
+
+#logo img
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: -80px;
+    margin-top: 4px;
+}
+.h-primary{
+    margin-top: 86px;
+    color: burlywood;
+}
+#main
+{
+	text-align: center;
+    background-color:#34bb9d    ;
+    margin-top: -85px;
+}
+.my-info{
+    padding: 1rem 5rem;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color:brown;
+    color: #fff;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+.btn-info:hover{
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+}
+
+.but
+{
+    margin-left: 90px;
+}
